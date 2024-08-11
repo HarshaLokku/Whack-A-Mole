@@ -1,0 +1,95 @@
+body{
+    font-family: "Press Start 2P", 'Times New Roman';
+    background-color: rgb(5, 237, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* head section */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 4rem;
+    margin: 30px 10px 30px 10px;
+}
+
+.score, .timer{
+    color: maroon;
+}
+
+.message{
+    color: purple    
+}
+
+.statsbar{
+    width: 100%;    
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* main section */
+
+main{
+   width: 100%; 
+}
+
+.ground{
+    height: 1600px;
+    width: 1600px;
+    background-color: rgb(158, 250, 20);
+    border-radius: 50%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+    left:0px;
+    
+}
+
+#container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 20px 20px 0px 20px;
+    margin: 100px auto 50px auto;
+    left:0px;
+}
+
+#row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0px 0px 10px -5px;
+}
+
+.hole {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 3px solid maroon;
+    color:  rgb(5, 237, 214);
+    border-radius: 100%;
+}
+
+.mole{
+    height: 100px;
+    width: 100px;
+    border-radius: 50% ;
+    opacity: 0;
+}
